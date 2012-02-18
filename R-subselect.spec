@@ -12,6 +12,8 @@ Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.11-3.tar.g
 Requires:         R-MASS R-ISwR 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
 BuildRequires:    R-MASS R-ISwR 
+BuildRequires:    blas-devel
+BuildRequires:    lapack-devel
 
 %description
 A collection of functions which (i) assess the quality of variable subsets
