@@ -32,8 +32,8 @@ mkdir -p %{buildroot}%{rlibdir}
 test -d %{packname}/src && (cd %{packname}/src; rm -f *.o *.so)
 rm -f %{buildroot}%{rlibdir}/R.css
 
-%check
-%{_bindir}/R CMD check %{packname}
+#%check
+#%{_bindir}/R CMD check %{packname}
 
 %files
 %dir %{rlibdir}/%{packname}
@@ -49,3 +49,11 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/data
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
+
+
+%changelog
+* Sat Feb 18 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.11_3-1
++ Revision: 776383
+- Import R-subselect
+- Import R-subselect
+
