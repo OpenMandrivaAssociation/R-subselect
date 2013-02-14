@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          0.11_3
+Version:          0.12.2
 Release:          1
 Summary:          Selecting variable subsets
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.11-3.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/subselect_0.12-2.tar.gz
 Requires:         R-MASS R-ISwR 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
 BuildRequires:    R-MASS R-ISwR 
@@ -49,11 +49,3 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/data
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
-
-
-%changelog
-* Sat Feb 18 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.11_3-1
-+ Revision: 776383
-- Import R-subselect
-- Import R-subselect
-
