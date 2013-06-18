@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          0.12.2
-Release:          1
+Release:          2
 Summary:          Selecting variable subsets
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
