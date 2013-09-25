@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   subselect_0.12-2.tar.gz: 312895ac15277326f8a41286f927d2d092152ebf
+sources:
+  subselect_0.12-3.tar.gz: 80feaeb560ad0eed62d033d6fe0ad43d34ca292a
